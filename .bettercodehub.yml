@@ -1,14 +1,5 @@
-component_depth: 10
-languages:
-- name: csharp
-  production:
-    include:
-      - .*/Main/.*\.cs
-      - .*/Director/.*\.cs
-      - .*/Enforcer/.*\.cs
-      - .*/Fido_Support/.*\.cs
-      - .*/Notification/.*\.cs
-      - .*/Properties/.*\.cs
-
+component_depth: 3
+languages: 
+- csharp
 
 
