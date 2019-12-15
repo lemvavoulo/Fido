@@ -1,0 +1,14 @@
+# Required metadata
+sonar.projectName=Fido
+
+# Comma-separated paths to directories with sources (required)
+sonar.sources=./Director
+
+# Language
+sonar.language=csharp
+
+# Encoding of the source files
+sonar.sourceEncoding=UTF-8
+
+
+
