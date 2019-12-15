@@ -8,7 +8,7 @@ languages:
       - .*/Enforcer/.*\.cs
       - .*/Fido_Support/.*\.cs
       - .*/Notification/.*\.cs
-      - .*/Objects/.*\.cs
+      - .*/Properties/.*\.cs
 
 
 
