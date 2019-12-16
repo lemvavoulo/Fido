@@ -1,5 +1,25 @@
-component_depth: 2
-languages: 
-- csharp
 
-
+component_depth: 3
+languages:
+- name: csharp
+  production:
+    exclude:
+      - /Director/DestinationInfo/.*\.cs
+      - /Director/Sumologic/.*\.cs
+      - /Director/VPN/.*\.cs
+      - /Director/Threat_Feeds/Feeds_Cymru.cs
+      - /Director/Threat_Feeds/Feeds_Lastline.cs
+      - /Director/Threat_Feeds/Feeds_OpenDNS.cs
+      - /Director/Threat_Feeds/Feeds_Quettera.cs
+      - /Director/Threat_Feeds/Feeds_WildFire.cs
+      - /Enforcer/.*\.cs
+      - /Fido_Support/Logging/Logging_Sumo/.*\.cs
+      - /Fido_Support/Network/.*\.cs
+      - /Fido_Support/Objects/OpenDNS/.*\.cs
+      - /Fido_Support/Objects/ProtectWise/.*\.cs
+      - /Detectors/Detect_Sourcefire.cs
+      - /Detectors/Detect_Lastline.cs
+      - /Detectors/Detect_Snort.cs
+      - /Detectors/Detect_SentinelOne.cs
+      - /Detectors/Detect_Bro.cs
+      - /Notification/Tickets/.*\.cs
